@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25" started-at="2016-11-25T09:26:10Z" finished-at="2016-11-25T09:26:10Z">
+    <groups>
+      <group name="e">
+        <method signature="GirlTest.parameterAndFactory(java.lang.String)[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="parameterAndFactory" class="com.epam.gomel.homework.GirlTest"/>
+      </group> <!-- e -->
+      <group name="girl">
+        <method signature="GirlTest.testGetMood()[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="testGetMood" class="com.epam.gomel.homework.GirlTest"/>
+        <method signature="GirlTest.testIsBoyFriendWillBuyNewShoes()[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="testIsBoyFriendWillBuyNewShoes" class="com.epam.gomel.homework.GirlTest"/>
+        <method signature="GirlTest.testIsBoyfriendRich()[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="testIsBoyfriendRich" class="com.epam.gomel.homework.GirlTest"/>
+        <method signature="GirlTest.testIsSlimFriendBecameFat(com.epam.gomel.homework.Girl)[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="testIsSlimFriendBecameFat" class="com.epam.gomel.homework.GirlTest"/>
+        <method signature="GirlTest.testSpendBoyFriendMoney()[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="testSpendBoyFriendMoney" class="com.epam.gomel.homework.GirlTest"/>
+      </group> <!-- girl -->
+      <group name="boy">
+        <method signature="BoyTest.testGetMood()[pri:1, instance:com.epam.gomel.homework.BoyTest@8807e25]" name="testGetMood" class="com.epam.gomel.homework.BoyTest"/>
+        <method signature="BoyTest.testIsSummerMonth()[pri:4, instance:com.epam.gomel.homework.BoyTest@8807e25]" name="testIsSummerMonth" class="com.epam.gomel.homework.BoyTest"/>
+        <method signature="BoyTest.testSpendSomeMoney()[pri:5, instance:com.epam.gomel.homework.BoyTest@8807e25]" name="testSpendSomeMoney" class="com.epam.gomel.homework.BoyTest"/>
+        <method signature="BoyTest.testIsRich()[pri:3, instance:com.epam.gomel.homework.BoyTest@8807e25]" name="testIsRich" class="com.epam.gomel.homework.BoyTest"/>
+        <method signature="BoyTest.testIsPrettyGirlFriend()[pri:2, instance:com.epam.gomel.homework.BoyTest@8807e25]" name="testIsPrettyGirlFriend" class="com.epam.gomel.homework.BoyTest"/>
+      </group> <!-- boy -->
+    </groups>
+    <test name="Default test" duration-ms="25" started-at="2016-11-25T09:26:10Z" finished-at="2016-11-25T09:26:10Z">
+      <class name="com.epam.gomel.homework.GirlTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="beforeClass" is-config="true" duration-ms="6" started-at="2016-11-25T12:26:10Z" finished-at="2016-11-25T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-11-25T12:26:10Z" finished-at="2016-11-25T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="parameterAndFactory(java.lang.String)[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="parameterAndFactory" duration-ms="0" started-at="2016-11-25T12:26:10Z" finished-at="2016-11-25T12:26:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Girl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterAndFactory -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-11-25T12:26:10Z" finished-at="2016-11-25T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGetMood()[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="testGetMood" duration-ms="2" started-at="2016-11-25T12:26:10Z" finished-at="2016-11-25T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMood -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-11-25T12:26:10Z" finished-at="2016-11-25T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testIsBoyFriendWillBuyNewShoes()[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="testIsBoyFriendWillBuyNewShoes" duration-ms="0" started-at="2016-11-25T12:26:10Z" finished-at="2016-11-25T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsBoyFriendWillBuyNewShoes -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-11-25T12:26:10Z" finished-at="2016-11-25T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testIsBoyfriendRich()[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="testIsBoyfriendRich" duration-ms="0" started-at="2016-11-25T12:26:10Z" finished-at="2016-11-25T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsBoyfriendRich -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-11-25T12:26:10Z" finished-at="2016-11-25T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testIsSlimFriendBecameFat(com.epam.gomel.homework.Girl)[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="testIsSlimFriendBecameFat" duration-ms="0" started-at="2016-11-25T12:26:10Z" data-provider="girlData" finished-at="2016-11-25T12:26:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.epam.gomel.homework.Girl@2d6d8735]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsSlimFriendBecameFat -->
+        <test-method status="PASS" signature="testSpendBoyFriendMoney()[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="testSpendBoyFriendMoney" duration-ms="0" started-at="2016-11-25T12:26:10Z" finished-at="2016-11-25T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpendBoyFriendMoney -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-11-25T12:26:10Z" finished-at="2016-11-25T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.epam.gomel.homework.GirlTest@16b4a017]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-11-25T12:26:10Z" finished-at="2016-11-25T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.epam.gomel.homework.GirlTest -->
+      <class name="com.epam.gomel.homework.BoyTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.epam.gomel.homework.BoyTest@8807e25]" name="beforeClass" is-config="true" duration-ms="6" started-at="2016-11-25T12:26:10Z" finished-at="2016-11-25T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testGetMood()[pri:1, instance:com.epam.gomel.homework.BoyTest@8807e25]" name="testGetMood" duration-ms="3" started-at="2016-11-25T12:26:10Z" finished-at="2016-11-25T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMood -->
+        <test-method status="PASS" signature="testIsPrettyGirlFriend()[pri:2, instance:com.epam.gomel.homework.BoyTest@8807e25]" name="testIsPrettyGirlFriend" duration-ms="0" started-at="2016-11-25T12:26:10Z" finished-at="2016-11-25T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsPrettyGirlFriend -->
+        <test-method status="PASS" signature="testIsRich()[pri:3, instance:com.epam.gomel.homework.BoyTest@8807e25]" name="testIsRich" duration-ms="0" started-at="2016-11-25T12:26:10Z" finished-at="2016-11-25T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsRich -->
+        <test-method status="PASS" signature="testSpendSomeMoney()[pri:5, instance:com.epam.gomel.homework.BoyTest@8807e25]" name="testSpendSomeMoney" duration-ms="1" started-at="2016-11-25T12:26:10Z" depends-on-methods="com.epam.gomel.homework.BoyTest.testGetMood" finished-at="2016-11-25T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpendSomeMoney -->
+        <test-method status="PASS" signature="testIsSummerMonth()[pri:4, instance:com.epam.gomel.homework.BoyTest@8807e25]" name="testIsSummerMonth" duration-ms="0" started-at="2016-11-25T12:26:10Z" finished-at="2016-11-25T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsSummerMonth -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.epam.gomel.homework.BoyTest@8807e25]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-11-25T12:26:10Z" finished-at="2016-11-25T12:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.epam.gomel.homework.BoyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

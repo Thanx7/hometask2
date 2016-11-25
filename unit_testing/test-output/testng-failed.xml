@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="testName" value="Girl"/>
+  <test name="Default test(failed)">
+    <parameter name="testName" value="Girl"/>
+    <groups>
+      <run>
+        <include name="boy"/>
+        <include name="girl"/>
+        <exclude name="e"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.epam.gomel.homework.GirlTest">
+        <methods>
+          <include name="testGetMood"/>
+          <include name="testIsBoyFriendWillBuyNewShoes"/>
+          <include name="beforeMethod"/>
+          <include name="testIsBoyfriendRich"/>
+          <include name="testIsSlimFriendBecameFat"/>
+          <include name="testSpendBoyFriendMoney"/>
+        </methods>
+      </class> <!-- com.epam.gomel.homework.GirlTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

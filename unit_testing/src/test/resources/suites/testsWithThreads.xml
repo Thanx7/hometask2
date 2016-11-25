@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite" parallel="classes" thread-count="2"> 
+  <test verbose="2" name="Default test">
+  
+    <parameter name="testName" value="Girl"/>
+    	
+    <classes>
+      <class name="com.epam.gomel.homework.BoyTest"/>
+      <class name="com.epam.gomel.homework.SimpleTestFactory"/>
+    </classes>
+
+  </test>
+</suite>
